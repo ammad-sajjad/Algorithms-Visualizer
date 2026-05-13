@@ -35,7 +35,6 @@ An interactive, step-by-step visualizer for classic sorting algorithms and binar
 | UI Components | [shadcn/ui](https://ui.shadcn.com/) + Radix UI primitives |
 | Icons | Lucide React |
 | Build | Vite 7 |
-| Deployment | Cloudflare Workers (via Wrangler) |
 | Code quality | ESLint + Prettier |
 
 ---
@@ -130,18 +129,6 @@ Playback speed is controlled by a `setTimeout` delay computed as `max(8, 320 - s
 
 ---
 
-## 🚢 Deployment
-
-The project is configured for **Cloudflare Workers** via `wrangler.jsonc`. To deploy:
-
-```bash
-npm run build
-npx wrangler deploy
-```
-
-Make sure you have a Cloudflare account and are logged in via `wrangler login`.
-
----
 
 ## Don't forget to :star: the repository.
 
